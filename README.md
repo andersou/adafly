@@ -4,8 +4,8 @@ adafly é um script escrito em python que faz a ponte entre o dispositivo conect
 
 ## Requisitos
 
-Python 3.4+
-Dependências no arquivo `requirements.txt`, apenas rode `pip -r requirements.txt`.
+* Python 3.4+
+* Dependências no arquivo `requirements.txt`, apenas rode `pip -r requirements.txt`.
 
 ## Getting Started
 
@@ -22,8 +22,11 @@ Executar o script com os seguintes argumentos:
 > Configuração de comunicação 115200, 8 bits, sem paridade, 1 stopbit
 
 Após o microcontrolador pode enviar mensagem, utilizando:
+
 `<grupo>/<feed>/<valor>`, ex.: `microbit/temperatura/22.5`
+
 ou setando um grupo padrão pela variável de ambiente `ADAFLY_GROUP`, podendo mandar a mensagem utilizando:
+
 `<feed>/<valor>`
 
 
